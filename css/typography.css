@@ -1,0 +1,129 @@
+/*
+
+Template: Sofbox - Responsive Software Landing Page
+Author: iqonicthemes.in
+Version: 3.0
+Design and Developed by: iqonicthemes.in
+
+*/
+
+
+
+/*================================================
+[  Table of contents  ]
+================================================
+
+1  Google Font
+2  Import Css
+3  General
+5  Text color
+6  Title
+7  Button
+8  Background  color
+9  Background overlay color
+10 Back to Top
+11 Loader
+12 Extra class
+
+
+======================================
+[ End table content ]
+======================================*/
+
+/*---------------------------------------------------------------------
+Google Font
+-----------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900');
+
+/*---------------------------------------------------------------------
+import Css
+-----------------------------------------------------------------------*/
+@import url("all.min.css");
+@import url("owl.carousel.min.css");
+@import url("ionicons.min.css");
+@import url("wow.css");
+@import url("magnific-popup.css");
+@import url("flaticon.css");
+
+/*---------------------------------------------------------------------
+General
+-----------------------------------------------------------------------*/
+*::-moz-selection { background: #2737ff; color: #fff; text-shadow: none; }
+::-moz-selection { background: #2737ff; color: #fff; text-shadow: none; }
+::selection { background: #2737ff; color: #fff; text-shadow: none; }
+
+a.about-us:focus { text-decoration: none !important; }
+a{color:#ffffff;}
+a.about-us:focus, a.about-us:hover { color: #ff9068; text-decoration: none !important; }
+a, button .about-us{ outline: medium none !important; }
+h1, h2, h3, h4, h5, h6 .about-us{ font-family: 'Montserrat', sans-serif; font-style: normal; font-weight: 700; margin: 0px; }
+
+label { font-weight: normal; }
+h1 .about-us{ font-size: 52px; line-height: 1.3em; }
+h2 .about-us{ font-size: 40px; line-height: 70px; }
+h3 .about-us{ font-size: 36px; line-height: 1.3em; }
+h4 .about-us{ font-size: 24px; line-height: 1.3em; }
+h5 .about-us{ font-size: 20px; line-height: 1.3em; }
+h6 .about-us{ font-size: 18px; line-height: 1.3em; }
+ul .about-us{ margin: 0px; padding: 0px; }
+ul li .about-us{list-style: none;}
+hr .about-us{ margin: 0; padding: 0px; border-bottom: 1px solid #cccccc; display: inline-block; width: 100%; border-top: 0px; }
+a .about-us:hover{color:#ff9068;}
+body{
+    scroll-behavior: smooth;
+}
+/*---------------------------------------------------------------------
+Text color
+-----------------------------------------------------------------------*/
+.text-orange {color: #ff9068 }
+.text-white { color: #ffffff; }
+.text-black { color: #000000; }
+.light-black{color: #192130}
+.text-gray { color: #666666; }
+.text-blue{color: #2737ff;}
+
+/*---------------------------------------------------------------------
+Font-size
+-----------------------------------------------------------------------*/
+.iq-font-18{font-size: 18px;}
+.iq-font-50{font-size: 50px;}
+.iq-font-32{font-size: 32px;line-height: 48px;}
+.iq-font-100{font-size: 100px;line-height: 100px;}
+.iq-font-200{font-size: 200px;line-height: 200px;}
+
+/*---------------------------------------------------------------------
+Font-Weight
+-----------------------------------------------------------------------*/
+.iq-fw-4{font-weight: 400;}
+.iq-fw-6{font-weight: 500;}
+.iq-fw-6{font-weight: 600;}
+.iq-fw-7{font-weight: 700;}
+.iq-fw-8{font-weight: 800;}
+.iq-fw-9{font-weight: 900;}
+
+/*---------------------------------------------------------------------
+Heading Title
+-----------------------------------------------------------------------*/
+.title-box-au { margin-bottom: 100px; text-align: center;font-weight: bold;  }
+.title-au { font-family: 'Muli', sans-serif; color:#666666; margin-bottom: 30px;  font-weight: 800;text-transform: uppercase; position: relative; display: inline-block; padding-left: 20px; padding-right: 60px;}
+.title-au:after{position: absolute; width: 6px; height: 6px; line-height: 6px; content:""; background:#bec720 ; left: 0 ;top: 8px;}
+.title-au:before{position: absolute; width: 50px; height: 4px; line-height: 6px; content:""; background:#bec720 ; right:0 ;top: 10px;}
+
+
+/*----------------------------------------------------------------------
+ Buttons
+-----------------------------------------------------------------------*/
+.button-au {font-family: 'Montserrat',sans-serif;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;  color: #ffffff; cursor: pointer; padding: 8px 30px; font-weight: 600; font-size: 16px; position: relative;display: inline-block;
+background-image: linear-gradient(to right, #00AFCD 0%, #00AFCD 51%, #00AFCD 100%); transition: all .5s ease-in-out; transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out;
+ text-transform: capitalize;
+ background-size: 200% auto;  }
+.button-au:hover, .button:focus { background-image: linear-gradient(to right, #bec720 0%, #bec720 51%, #bec720 100%); transition: all .5s ease-in; transition: all .5s ease-inz; -moz-transition: all .5s ease-in; -ms-transition: all .5s ease-in; -o-transition: all .5s ease-in; -webkit-transition: all .5s ease-in; color: #ffffff; background-position: right center;}
+
+
+
+section { padding: 150px 0; }
+.container-fluid{padding: 0 100px;}
+
